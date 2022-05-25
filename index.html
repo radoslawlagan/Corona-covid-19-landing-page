@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>corona | covid-19</title>
+    <link rel="icon" href="./img/faviconV2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/b76dbff05e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="relative">
+
+    <!-- navigation -->
+
+    <nav class="max-w-[1280px] mx-auto mt-4 p-4">
+
+        <div class="relative">
+            <nav class="menu-mobile hidden absolute -left-4 md:left-auto -right-8 -top-12 flex flex-col bg-darkBlue font-bold px-16 py-24 space-y-16 z-10">
+                <div class="flex flex-col items-start text-white space-y-3 text-xl">
+                    <a href="#" class="hover:underline">Find COVID-19 test center</a>
+                    <a href="#" class="hover:underline">Find COVID-19 vaccination center</a>
+                    <a href="#" class="hover:underline">FAQ about COVID-19</a>
+                    <p class="text-4xl">-</p>
+                    <a href="#" class="hover:underline">Contact and hotlines</a>
+                </div>
+                <div class="flex flex-col text-blueGreen items-end">
+                    <a href="#" class="hover:underline">This site in Danish</a>
+                    <a href="#" class="hover:underline">Urlaubsreisen nach Dänemark</a>
+                </div>
+            </nav>
+        </div>
+
+        <div class="flex items-center justify-between">
+            <a href="#">
+                <img src="./img/logo.svg" class="h-10 lg:h-14" alt="logo">
+            </a>
+            <div class="flex items-center justify-end pl-4 space-x-6 lg:space-x-8 font-bold text-darkBlue text-lg lg:text-xl w-full relative">
+                <div class="menu hidden md:flex space-x-6 items-center justify-center">
+                    <a href="#" class="menu-link">Travel rules</a>
+                    <a href="#" class="menu-link">General information</a>
+                    <a href="#" class="menu-link">Rules and regulations</a>
+                    <a href="#" class="menu-link">Dansk</a>
+                </div>
+                <input class="absolute hidden right-28 search w-1/2 border border-lightBlue rounded-full py-2 px-3 text-gray-700 leading-tight focus:outline-none" type="text" placeholder="Type in search query">
+                <i class="fa-solid fa-magnifying-glass cursor-pointer text-2xl"></i>
+                <button class="burger focus:outline-none z-20">
+                    <span class="burger-top"></span>
+                    <span class="burger-middle"></span>
+                    <span class="burger-bottom"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <section id="carousel" class="max-w-[1280px] mx-auto p-4">
+
+        <div id="carouselExampleIndicators" class="carousel slide relative" data-bs-ride="carousel">
+            <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+
+            <div class="carousel-inner relative w-full overflow-hidden">
+                <div class="carousel-item active float-left w-full">
+                    <div class="flex items-center bg-veryLightBlue">
+                        <div class="flex flex-col text-left space-y-3 p-3 text-darkBlue md:w-1/2 md:px-12">
+                            <p class="uppercase font-bold text-sm md:text-lg">no current covid-19 restrictions</p>
+                            <h2 class="font-bold text-4xl md:text-4xl lg:text-5xl">Tour de France is coming to Denmark</h2>
+                            <p class="hidden lg:block text-xl font-bold pt-4">Be aware that this event will affect traffic</p>
+                        </div>
+                        <div class="hidden md:block md:w-1/2">
+                            <img src="./img/tour-de-france.jpg" class="object-cover" alt="tour de france">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item float-left w-full">
+                    <div class="flex items-center bg-mediumBlue">
+                        <div class="hidden md:block md:w-1/2">
+                            <img src="./img/airport.jpg" class="object-cover" alt="airport">
+                        </div>
+                        <div class="flex flex-col text-left space-y-3 p-3 text-white md:w-1/2 md:px-12">
+                            <p class="uppercase font-bold  text-sm md:text-lg">travel</p>
+                            <h2 class="font-bold  text-4xl md:text-4xl lg:text-5xl">End of COVID-19 entry restrictions</h2>
+                            <p class="hidden lg:block text-xl font-bold  pt-4">From 29 March there are no restrictions on entry into Denmark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev absolute top-0 bottom-0 flex items-end justify-center p-0 mb-4 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next absolute top-0 bottom-0 flex items-end justify-center p-0 mb-4 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <!-- find-info -->
+
+    <section id="find-info" class="max-w-[1280px] mx-auto py-6 px-4">
+        <div class="flex flex-col md:flex-row">
+
+            <div class="flex flex-col space-y-8 md:w-6/12">
+                <div class="bg-darkBlue text-white text-xl font-bold p-4 flex items-center md:h-40">
+                    <a href="#" class="hidden md:block w-1/3">
+                        <img src="./img/find-testcentre.svg" alt="">
+                    </a>
+                    <a href="#" class="link text-2xl w-2/3">
+                        Find nearest test center
+                    </a>
+                </div>
+                <div class="bg-darkBlue text-white text-xl font-bold p-4 flex items-center md:h-40">
+                    <a href="#" class="hidden md:block w-1/3">
+                        <img src="./img/all-vaccination-centers.svg" alt="">
+                    </a>
+                    <a href="#" class="link text-2xl w-2/3">
+                        See all vaccination centers
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex-col md:block md:w-8/12">
+                <div class="hidden md:block md:pl-3">
+                    <h2 class="font-bold text-right text-2xl text-darkBlue mb-4">Find information about:</h2>
+                    <div class="flex flex-wrap items-center justify-end">
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infected</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infection-free</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Prevent infection</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Contact with an infected person</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Test for COVID-19</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Vaccination</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Corona passport</button></a>
+                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Travel rules</button></a>
+                    </div>
+                </div>
+                <div class="flex items-center justify-start flex-wrap pt-6 md:items-end md:flex-col">
+                    <a href="#">
+                        <button class="duration-300 bg-darkBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover   flex items-center justify-center relative">
+                            <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                                <p class="mb-1 ml-0.5">></p>
+                            </div>
+                            <p class="pl-5">Contact the Danish Authorities' hotlines</p>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="duration-300 bg-lightBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover">All rules and regulations</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- for-travellers -->
+
+    <section id="for-travellers" class="bg-mediumBlue py-8 lg:py-20 px-4">
+        <div class="max-w-[1280px] flex flex-col items-center mx-auto">
+
+            <div class="text-left self-start pb-8 lg:pb-14">
+                <h2 class="text-white text-4xl font-bold lg:text-5xl">
+                    For travellers
+                </h2>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <div class="py-4 md:w-1/2">
+                    <a href="#"><img src="./img/travel-to.jpg" alt=""></a>
+                    <div class="flex flex-col bg-darkBlue p-8">
+                        <p class="text-white font-bold uppercase mb-2">
+                            rules and regulations
+                        </p>
+                        <h3 class="text-white font-bold text-3xl md:text-4xl lg:text-5xl">
+                            <a href="#" class="big-link">Travelling to Denmark</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="py-4 md:w-1/2">
+                    <a href="#"><img src="./img/travel-out.jpg" alt=""></a>
+                    <div class="flex flex-col bg-darkBlue p-8">
+                        <p class="text-white font-bold uppercase mb-2">
+                            rules and regulations
+                        </p>
+                        <h3 class="text-white font-bold text-3xl md:text-4xl lg:text-5xl">
+                            <a href="#" class="big-link">Travel out of Denmark</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- news -->
+
+    <section id="news" class="px-4 py-8 lg:py-20">
+        <div class="max-w-[1280px] flex flex-col items-center mx-auto">
+
+            <div class="text-left self-start pb-8 lg:pb-14">
+                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+                    News
+                </h2>
+            </div>
+
+            <div class="flex flex-col self-start md:flex-row space-y-9 md:space-y-0 md:space-x-6">
+
+                <div class="flex flex-col md:w-1/3 items-start space-y-1 ">
+                    <p class="uppercase text-red text-sm font-bold">
+                        statens serum institut
+                    </p>
+                    <a href="#" class="link text-darkBlue font-bold text-xl hover:text-lightBlue">Reinfection with different subtypes of Omicron is possible</a>
+                    <p class="text-gray">Published 22-02-2022</p>
+                </div>
+
+                <div class="flex flex-col md:w-1/3 items-start space-y-1 ">
+                    <p class="uppercase text-red text-sm font-bold">
+                        the danish health authority
+                    </p>
+                    <a href="#" class="link text-darkBlue font-bold text-xl hover:text-lightBlue">No further plans of extensions to the COVID-19 vaccination program</a>
+                    <p class="text-gray">Published 18-02-2022</p>
+                </div>
+
+                <div class="flex flex-col md:w-1/3 items-start space-y-1 ">
+                    <p class="uppercase text-red text-sm font-bold">
+                        statens serum institut
+                    </p>
+                    <a href="#" class="link text-darkBlue font-bold text-xl hover:text-lightBlue">Mortality due to COVID-19 in Denmark is not increasing as much as are case numbers</a>
+                    <p class="text-gray">Published 18-02-2022</p>
+                </div>
+
+            </div>
+
+            <div class="self-start pt-14 pb-4 md:self-end">
+                <a href="#">
+                    <button class="duration-300 self-start bg-darkBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover flex items-center justify-center relative">
+                        <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                            <p class="mb-1 ml-0.5">></p>
+                        </div>
+                        <p class="pl-5">See all news</p>
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- prevent-infection -->
+
+    <section id="prevent-infection" class="bg-veryLightBlue px-4 py-8 lg:py-20">
+        <div class="max-w-[1280px] flex flex-col items-center mx-auto">
+
+            <div class="text-left self-start pb-8 lg:pb-14">
+                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+                    Prevent infection
+                </h2>
+            </div>
+
+            <div class="flex flex-wrap">
+                <img src="./img/get-vaccinated.svg" class="w-1/2 md:w-1/4" alt="">
+                <img src="./img/stay-at-home.svg" class="w-1/2 md:w-1/4" alt="">
+                <img src="./img/open-windows.svg" class="w-1/2 md:w-1/4" alt="">
+                <img src="./img/wash-hands.svg" class="w-1/2 md:w-1/4" alt="">
+            </div>
+
+            <div class="self-start pt-14 pb-4 md:self-end">
+                <a href="#">
+                    <button class="duration-300 self-start bg-lightBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover flex items-center justify-center relative">
+                        <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                            <p class="mb-1 ml-0.5">></p>
+                        </div>
+                        <p class="pl-5">Prevent infection</p>
+                    </button>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- general information -->
+
+    <section id="general-information" class="px-4 py-8 lg:py-20">
+        <div class="max-w-[1280px] mx-auto">
+
+            <div class="text-left self-start pb-8 lg:pb-14 mb-2">
+                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+                    General information
+                </h2>
+            </div>
+
+            <div class="flex flex-col space-y-8 md:space-y-0 md:grid md:grid-cols-3 md:gap-4 lg:gap-8">
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/contact-with.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Contact with an infected person</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/infected.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Infected</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/infection-free.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Infection-free</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/test-for-c19.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Test for COVID-19</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/vaccination.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Vaccination</a>
+                </div>
+
+                <div class="flex flex-col">
+                    <a href="#"><img src="./img/corona-passport.jpg" class="hidden md:block " alt=""></a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Corona passport</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- faq -->
+
+    <section id="faq" class="bg-darkBlue px-4 py-12 lg:py-[5.5rem]">
+        <div class="max-w-[1280px] mx-auto flex">
+
+            <img src="./img/headset.svg" class="hidden self-start md:block md:block w-3/12" alt="">
+
+            <div class="text-white text-left self-start mb-2 md:w-9/12 space-y-10 pt-6">
+                <h2 class="text-4xl font-bold lg:text-[2.6rem]">
+                    Frequently asked questions about COVID-19
+                </h2>
+                <p class="md:text-xl">You can find more information in our FAQ section or by contacting one of the Danish authorities' COVID-19 hotlines.</p>
+                <div class="flex flex-wrap">
+                    <a href="#">
+                        <button class="duration-300 my-2 mx-1 mr-4 border border-white rounded-full font-bold text-white lg:text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
+                            <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
+                                <p class="mb-1 ml-0.5">></p>
+                            </div>
+                            <p class="pl-5">All FAQs about COVID-19</p>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="duration-300 my-2 mx-1 border border-white rounded-full font-bold text-white lg:text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
+                            <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
+                                <p class="mb-1 ml-0.5">></p>
+                            </div>
+                            <p class="pl-5">Overview of the authorities' hotlines</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="px-4 py-8 lg:py-20">
+        <div class="max-w-[1280px] mx-auto">
+
+            <div class="border-darkBlue border-t-4 border-b mt-8 md:mt-10 flex flex-col md:flex-row py-6 md:py-10">
+                <img src="./img/nationalt-kommunikations.png" class=" self-start md:block md:block w-3/12 pr-6 lg:pr-8 min-w-fit" alt="text: 'nationalt kommunikations partnerskab covind-19'">
+                <div class="text-darkBlue text-sm lg:text-lg text-left self-start mb-2 md:w-9/12 space-y-10 pt-6 md:pt-0">
+                    <p><span class="font-bold">The partnership consists of: </span>The Danish Ministry of Health, Danish Health Authority, Danish Patient Safety Authority, Statens Serum Institut, Danish Medicines Agency, The Ministry of Justice, The Danish Critical Supply Agency, Danish Police, Ministry of Industry, Business and Financial Affairs, Danish Business Authority, The Ministry of Culture, and Ministry of foreign affairs of Denmark. Other ministries and authorities will participate in the partnership as required.</p>
+                    <div class="flex flex-col items-start space-y-2 pb-6 md:flex-row md:space-y-0 md:space-x-4">
+                        <a href="#" class="font-bold underline hover:no-underline hover:font-extrabold">Cookies</a>
+                        <a href="#" class="font-bold underline hover:no-underline hover:font-extrabold">Privacy</a>
+                        <a href="#" class="font-bold underline hover:no-underline hover:font-extrabold">About the website</a>
+                        <a href="#" class="font-bold underline hover:no-underline hover:font-extrabold">Accessibility statement (in Danish)</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

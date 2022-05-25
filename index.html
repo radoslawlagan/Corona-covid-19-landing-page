@@ -38,10 +38,10 @@
 
         <div class="flex items-center justify-between">
             <a href="#">
-                <img src="./img/logo.svg" class="h-10 lg:h-14" alt="logo">
+                <img src="./img/logo.svg" class="h-10 xl:h-14" alt="logo">
             </a>
-            <div class="flex items-center justify-end pl-4 space-x-6 lg:space-x-8 font-bold text-darkBlue text-lg lg:text-xl w-full relative">
-                <div class="menu hidden md:flex space-x-6 items-center justify-center">
+            <div class="flex items-center justify-end pl-4 space-x-6 xl:space-x-8 font-bold text-darkBlue text-xl xl:text-xl w-full relative">
+                <div class="menu hidden md:flex space-x-6 items-center justify-around text-center">
                     <a href="#" class="menu-link">Travel rules</a>
                     <a href="#" class="menu-link">General information</a>
                     <a href="#" class="menu-link">Rules and regulations</a>
@@ -69,29 +69,34 @@
             </div>
 
             <div class="carousel-inner relative w-full overflow-hidden">
+
                 <div class="carousel-item active float-left w-full">
-                    <div class="flex items-center bg-veryLightBlue">
-                        <div class="flex flex-col text-left space-y-3 p-3 text-darkBlue md:w-1/2 md:px-12">
-                            <p class="uppercase font-bold text-sm md:text-lg">no current covid-19 restrictions</p>
-                            <h2 class="font-bold text-4xl md:text-4xl lg:text-5xl">Tour de France is coming to Denmark</h2>
-                            <p class="hidden lg:block text-xl font-bold pt-4">Be aware that this event will affect traffic</p>
+                    <a href="#">
+                        <div class="flex items-center bg-veryLightBlue">
+                            <div class="flex flex-col text-left space-y-3 p-3 text-darkBlue md:w-1/2 md:px-12">
+                                <p class="uppercase font-bold text-sm md:text-xl">no current covid-19 restrictions</p>
+                                <h2 class="font-bold text-4xl md:text-4xl xl:text-5xl">Tour de France is coming to Denmark</h2>
+                                <p class="hidden xl:block text-xl font-bold pt-4">Be aware that this event will affect traffic</p>
+                            </div>
+                            <div class="hidden md:block md:w-1/2">
+                                <img src="./img/tour-de-france.jpg" class="object-cover" alt="tour de france">
+                            </div>
                         </div>
-                        <div class="hidden md:block md:w-1/2">
-                            <img src="./img/tour-de-france.jpg" class="object-cover" alt="tour de france">
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="carousel-item float-left w-full">
-                    <div class="flex items-center bg-mediumBlue">
-                        <div class="hidden md:block md:w-1/2">
-                            <img src="./img/airport.jpg" class="object-cover" alt="airport">
+                    <a href="#">
+                        <div class="flex items-center bg-mediumBlue">
+                            <div class="hidden md:block md:w-1/2">
+                                <img src="./img/airport.jpg" class="object-cover" alt="airport">
+                            </div>
+                            <div class="flex flex-col text-left space-y-3 p-3 text-white md:w-1/2 md:px-12">
+                                <p class="uppercase font-bold  text-sm md:text-xl">travel</p>
+                                <h2 class="font-bold  text-4xl md:text-4xl xl:text-5xl">End of COVID-19 entry restrictions</h2>
+                                <p class="hidden xl:block text-xl font-bold  pt-4">From 29 March there are no restrictions on entry into Denmark</p>
+                            </div>
                         </div>
-                        <div class="flex flex-col text-left space-y-3 p-3 text-white md:w-1/2 md:px-12">
-                            <p class="uppercase font-bold  text-sm md:text-lg">travel</p>
-                            <h2 class="font-bold  text-4xl md:text-4xl lg:text-5xl">End of COVID-19 entry restrictions</h2>
-                            <p class="hidden lg:block text-xl font-bold  pt-4">From 29 March there are no restrictions on entry into Denmark</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -135,27 +140,25 @@
                 <div class="hidden md:block md:pl-3">
                     <h2 class="font-bold text-right text-2xl text-darkBlue mb-4">Find information about:</h2>
                     <div class="flex flex-wrap items-center justify-end">
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infected</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infection-free</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Prevent infection</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Contact with an infected person</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Test for COVID-19</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Vaccination</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Corona passport</button></a>
-                        <a href="#"><button class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Travel rules</button></a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infected</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Infection-free</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Prevent infection</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Contact with an infected person</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Test for COVID-19</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Vaccination</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Corona passport</a>
+                        <a href="#" class="duration-300 my-2 mx-1 border border-darkBlue rounded-full font-bold text-darkBlue text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-lightBlue hover:text-white hover:border-lightBlue">Travel rules</a>
                     </div>
                 </div>
                 <div class="flex items-center justify-start flex-wrap pt-6 md:items-end md:flex-col">
-                    <a href="#">
-                        <button class="duration-300 bg-darkBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover   flex items-center justify-center relative">
-                            <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
-                                <p class="mb-1 ml-0.5">></p>
-                            </div>
-                            <p class="pl-5">Contact the Danish Authorities' hotlines</p>
-                        </button>
+                    <a href="#" class="duration-300 bg-darkBlue text-white md:text-xl xl:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover   flex items-center justify-center relative">
+                        <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                            <p class="mb-1 ml-0.5">></p>
+                        </div>
+                        <p class="pl-5">Contact the Danish Authorities' hotlines</p>
                     </a>
-                    <a href="#">
-                        <button class="duration-300 bg-lightBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover">All rules and regulations</button>
+                    <a href="#" class="duration-300 bg-lightBlue text-white md:text-xl xl:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover">
+                        All rules and regulations
                     </a>
                 </div>
             </div>
@@ -165,11 +168,11 @@
 
     <!-- for-travellers -->
 
-    <section id="for-travellers" class="bg-mediumBlue py-8 lg:py-20 px-4">
+    <section id="for-travellers" class="bg-mediumBlue py-8 xl:py-20 px-4">
         <div class="max-w-[1280px] flex flex-col items-center mx-auto">
 
-            <div class="text-left self-start pb-8 lg:pb-14">
-                <h2 class="text-white text-4xl font-bold lg:text-5xl">
+            <div class="text-left self-start pb-8 xl:pb-14">
+                <h2 class="text-white text-4xl font-bold xl:text-5xl">
                     For travellers
                 </h2>
             </div>
@@ -181,7 +184,7 @@
                         <p class="text-white font-bold uppercase mb-2">
                             rules and regulations
                         </p>
-                        <h3 class="text-white font-bold text-3xl md:text-4xl lg:text-5xl">
+                        <h3 class="text-white font-bold text-3xl md:text-4xl xl:text-5xl">
                             <a href="#" class="big-link">Travelling to Denmark</a>
                         </h3>
                     </div>
@@ -193,7 +196,7 @@
                         <p class="text-white font-bold uppercase mb-2">
                             rules and regulations
                         </p>
-                        <h3 class="text-white font-bold text-3xl md:text-4xl lg:text-5xl">
+                        <h3 class="text-white font-bold text-3xl md:text-4xl xl:text-5xl">
                             <a href="#" class="big-link">Travel out of Denmark</a>
                         </h3>
                     </div>
@@ -205,11 +208,11 @@
 
     <!-- news -->
 
-    <section id="news" class="px-4 py-8 lg:py-20">
+    <section id="news" class="px-4 py-8 xl:py-20">
         <div class="max-w-[1280px] flex flex-col items-center mx-auto">
 
-            <div class="text-left self-start pb-8 lg:pb-14">
-                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+            <div class="text-left self-start pb-8 xl:pb-14">
+                <h2 class="text-darkBlue text-4xl font-bold xl:text-5xl">
                     News
                 </h2>
             </div>
@@ -243,13 +246,11 @@
             </div>
 
             <div class="self-start pt-14 pb-4 md:self-end">
-                <a href="#">
-                    <button class="duration-300 self-start bg-darkBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover flex items-center justify-center relative">
-                        <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
-                            <p class="mb-1 ml-0.5">></p>
-                        </div>
-                        <p class="pl-5">See all news</p>
-                    </button>
+                <a href="#" class="duration-300 self-start bg-darkBlue text-white md:text-xl xl:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-darkBlueHover flex items-center justify-center relative">
+                    <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                        <p class="mb-1 ml-0.5">></p>
+                    </div>
+                    <p class="pl-5">See all news</p>
                 </a>
             </div>
 
@@ -258,30 +259,36 @@
 
     <!-- prevent-infection -->
 
-    <section id="prevent-infection" class="bg-veryLightBlue px-4 py-8 lg:py-20">
+    <section id="prevent-infection" class="bg-veryLightBlue px-4 py-8 xl:py-20">
         <div class="max-w-[1280px] flex flex-col items-center mx-auto">
 
-            <div class="text-left self-start pb-8 lg:pb-14">
-                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+            <div class="text-left self-start pb-8 xl:pb-14">
+                <h2 class="text-darkBlue text-4xl font-bold xl:text-5xl">
                     Prevent infection
                 </h2>
             </div>
 
             <div class="flex flex-wrap">
-                <img src="./img/get-vaccinated.svg" class="w-1/2 md:w-1/4" alt="">
-                <img src="./img/stay-at-home.svg" class="w-1/2 md:w-1/4" alt="">
-                <img src="./img/open-windows.svg" class="w-1/2 md:w-1/4" alt="">
-                <img src="./img/wash-hands.svg" class="w-1/2 md:w-1/4" alt="">
+                <a href="#" class="w-1/2 md:w-1/4">
+                    <img src="./img/get-vaccinated.svg" alt="get vaccinated and revaccinated">
+                </a>
+                <a href="#" class="w-1/2 md:w-1/4">
+                    <img src="./img/stay-at-home.svg" alt="stay at home if you are ill">
+                </a>
+                <a href="#" class="w-1/2 md:w-1/4">
+                    <img src="./img/open-windows.svg" alt="open windows and doors and ventilate your home reguraly">
+                </a>
+                <a href="#" class="w-1/2 md:w-1/4">
+                    <img src="./img/wash-hands.svg" alt="wash hands frequently or use hand santitisier">
+                </a>
             </div>
 
             <div class="self-start pt-14 pb-4 md:self-end">
-                <a href="#">
-                    <button class="duration-300 self-start bg-lightBlue text-white md:text-lg lg:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover flex items-center justify-center relative">
-                        <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
-                            <p class="mb-1 ml-0.5">></p>
-                        </div>
-                        <p class="pl-5">Prevent infection</p>
-                    </button>
+                <a href="#" class="duration-300 self-start bg-lightBlue text-white md:text-xl xl:text-xl font-bold rounded-full py-3 px-6 pb-4 m-2 ml-0 hover:bg-lightBlueHover flex items-center justify-center relative">
+                    <div class="rounded-full bg-lightBlue h-5 w-5 text-xl flex items-center justify-center absolute left-4 top-[31%]">
+                        <p class="mb-1 ml-0.5">></p>
+                    </div>
+                    <p class="pl-5">Prevent infection</p>
                 </a>
             </div>
 
@@ -290,44 +297,44 @@
 
     <!-- general information -->
 
-    <section id="general-information" class="px-4 py-8 lg:py-20">
+    <section id="general-information" class="px-4 py-8 xl:py-20">
         <div class="max-w-[1280px] mx-auto">
 
-            <div class="text-left self-start pb-8 lg:pb-14 mb-2">
-                <h2 class="text-darkBlue text-4xl font-bold lg:text-5xl">
+            <div class="text-left self-start pb-8 xl:pb-14 mb-2">
+                <h2 class="text-darkBlue text-4xl font-bold xl:text-5xl">
                     General information
                 </h2>
             </div>
 
-            <div class="flex flex-col space-y-8 md:space-y-0 md:grid md:grid-cols-3 md:gap-4 lg:gap-8">
+            <div class="flex flex-col space-y-8 md:space-y-0 md:grid md:grid-cols-3 md:gap-4 xl:gap-8">
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/contact-with.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Contact with an infected person</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Contact with an infected person</a>
                 </div>
 
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/infected.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Infected</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Infected</a>
                 </div>
 
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/infection-free.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Infection-free</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Infection-free</a>
                 </div>
 
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/test-for-c19.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Test for COVID-19</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Test for COVID-19</a>
                 </div>
 
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/vaccination.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Vaccination</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Vaccination</a>
                 </div>
 
                 <div class="flex flex-col">
                     <a href="#"><img src="./img/corona-passport.jpg" class="hidden md:block " alt=""></a>
-                    <a href="#" class="link text-darkBlue font-bold text-xl lg:text-2xl md:mt-4 hover:text-lightBlue">Corona passport</a>
+                    <a href="#" class="link text-darkBlue font-bold text-xl xl:text-2xl md:mt-4 hover:text-lightBlue">Corona passport</a>
                 </div>
             </div>
 
@@ -336,32 +343,28 @@
 
     <!-- faq -->
 
-    <section id="faq" class="bg-darkBlue px-4 py-12 lg:py-[5.5rem]">
+    <section id="faq" class="bg-darkBlue px-4 py-12 xl:py-[5.5rem]">
         <div class="max-w-[1280px] mx-auto flex">
 
             <img src="./img/headset.svg" class="hidden self-start md:block md:block w-3/12" alt="">
 
             <div class="text-white text-left self-start mb-2 md:w-9/12 space-y-10 pt-6">
-                <h2 class="text-4xl font-bold lg:text-[2.6rem]">
+                <h2 class="text-4xl font-bold xl:text-[2.6rem]">
                     Frequently asked questions about COVID-19
                 </h2>
                 <p class="md:text-xl">You can find more information in our FAQ section or by contacting one of the Danish authorities' COVID-19 hotlines.</p>
                 <div class="flex flex-wrap">
-                    <a href="#">
-                        <button class="duration-300 my-2 mx-1 mr-4 border border-white rounded-full font-bold text-white lg:text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
-                            <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
-                                <p class="mb-1 ml-0.5">></p>
-                            </div>
-                            <p class="pl-5">All FAQs about COVID-19</p>
-                        </button>
+                    <a href="#" class="duration-300 my-2 mx-1 mr-4 border border-white rounded-full font-bold text-white xl:text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
+                        <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
+                            <p class="mb-1 ml-0.5">></p>
+                        </div>
+                        <p class="pl-5">All FAQs about COVID-19</p>
                     </a>
-                    <a href="#">
-                        <button class="duration-300 my-2 mx-1 border border-white rounded-full font-bold text-white lg:text-lg lg:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
-                            <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
-                                <p class="mb-1 ml-0.5">></p>
-                            </div>
-                            <p class="pl-5">Overview of the authorities' hotlines</p>
-                        </button>
+                    <a href="#" class="duration-300 my-2 mx-1 border border-white rounded-full font-bold text-white xl:text-xl xl:text-xl py-2 px-6 pb-3 hover:bg-white hover:text-darkBlue flex items-center justify-center relative">
+                        <div class="rounded-full h-5 w-5 text-xl flex items-center justify-center absolute left-4">
+                            <p class="mb-1 ml-0.5">></p>
+                        </div>
+                        <p class="pl-5">Overview of the authorities' hotlines</p>
                     </a>
                 </div>
             </div>
@@ -371,12 +374,12 @@
 
     <!-- footer -->
 
-    <footer class="px-4 py-8 lg:py-20">
+    <footer class="px-4 py-8 xl:py-20">
         <div class="max-w-[1280px] mx-auto">
 
             <div class="border-darkBlue border-t-4 border-b mt-8 md:mt-10 flex flex-col md:flex-row py-6 md:py-10">
-                <img src="./img/nationalt-kommunikations.png" class=" self-start md:block md:block w-3/12 pr-6 lg:pr-8 min-w-fit" alt="text: 'nationalt kommunikations partnerskab covind-19'">
-                <div class="text-darkBlue text-sm lg:text-lg text-left self-start mb-2 md:w-9/12 space-y-10 pt-6 md:pt-0">
+                <img src="./img/nationalt-kommunikations.png" class=" self-start md:block md:block w-3/12 pr-6 xl:pr-8 min-w-fit" alt="text: 'nationalt kommunikations partnerskab covind-19'">
+                <div class="text-darkBlue text-sm xl:text-lg text-left self-start mb-2 md:w-9/12 space-y-10 pt-6 md:pt-0">
                     <p><span class="font-bold">The partnership consists of: </span>The Danish Ministry of Health, Danish Health Authority, Danish Patient Safety Authority, Statens Serum Institut, Danish Medicines Agency, The Ministry of Justice, The Danish Critical Supply Agency, Danish Police, Ministry of Industry, Business and Financial Affairs, Danish Business Authority, The Ministry of Culture, and Ministry of foreign affairs of Denmark. Other ministries and authorities will participate in the partnership as required.</p>
                     <div class="flex flex-col items-start space-y-2 pb-6 md:flex-row md:space-y-0 md:space-x-4">
                         <a href="#" class="font-bold underline hover:no-underline hover:font-extrabold">Cookies</a>

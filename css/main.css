@@ -708,6 +708,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
 .space-y-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
@@ -959,11 +963,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -1267,8 +1266,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 0px;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -1276,70 +1275,65 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1280px) {
-  .lg\:block {
+  .xl\:block {
     display: block;
   }
 
-  .lg\:h-14 {
+  .xl\:h-14 {
     height: 3.5rem;
   }
 
-  .lg\:gap-8 {
+  .xl\:gap-8 {
     gap: 2rem;
   }
 
-  .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  .xl\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:py-20 {
+  .xl\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
 
-  .lg\:py-\[5\.5rem\] {
+  .xl\:py-\[5\.5rem\] {
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
   }
 
-  .lg\:pb-14 {
+  .xl\:pb-14 {
     padding-bottom: 3.5rem;
   }
 
-  .lg\:pr-8 {
+  .xl\:pr-8 {
     padding-right: 2rem;
   }
 
-  .lg\:text-xl {
+  .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
-  .lg\:text-5xl {
+  .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
   }
 
-  .lg\:text-2xl {
+  .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
 
-  .lg\:text-\[2\.6rem\] {
+  .xl\:text-\[2\.6rem\] {
     font-size: 2.6rem;
   }
 
-  .lg\:text-lg {
+  .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }

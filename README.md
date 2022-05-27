@@ -1,6 +1,7 @@
 # Corona | Covid-19 landing page
 
-This is a copy of a main page of a website about Covid-19 that I've made. Original website: https://en.coronasmitte.dk/
+This is a copy of a main page of a website about Covid-19.
+Original website: https://en.coronasmitte.dk/
 
 The task was to code the main page myself and get it as close to the original as possible. The main objective however was to use Tailwind CSS which I did not know at that point. I liked the challenge, I've watched one YouTube tutorial on Tailwind CSS and began coding the project myself, looking up official documentation from time to time. I think it came out pretty nicely.
 
